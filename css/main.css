@@ -8,8 +8,8 @@ body, div, ul, li, dl, dt, dd, ol, h1, h2, h3, h4, h5, h6, input, fieldset, lege
 #wrap {position: relative; background: #efecea; }
 #section1 {height:130vh; }
 #section2 {padding: 20% 0 15% 0; }
-#section3 {background: #fff; padding: 12% 0;}
-#section4 {padding: 15% 0; }
+#section3 {padding: 12% 0;}
+#section4 {padding: 15% 0;}
 #section5 {background: #fff; padding: 15% 0 20% 0; }
 #section6 {background: #efecea; padding: 13% 0 4% 0;}
 
@@ -175,7 +175,7 @@ body, div, ul, li, dl, dt, dd, ol, h1, h2, h3, h4, h5, h6, input, fieldset, lege
 }
 .sec3 .sec3_moc .mockup .desc {
     position: relative;
-    background: #999;
+    background: #7d7571;
     color: #fff;
     margin-left: 5vw;
     margin-top: -2vw;
