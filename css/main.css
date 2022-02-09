@@ -348,7 +348,12 @@ header p {
 }
 
 .sec3 .sec3_moc .mockup .info {
-    
+    margin-left: 5vw;
+    margin-top: 1vw;
+    padding: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+    font-size: 12pt;
 }
 
 /* #section3 animation   */
@@ -450,11 +455,25 @@ header p {
     top: 14px;
 }
 
-.sec6 {
+/* #section4 animation   */
+#section4 .sec4 .sec4_img img {opacity: 0;}
+#section4 .sec4 h2 {opacity: 0;}
+#section4 .sec4 h3 {opacity: 0;}
+#section4 .sec4 p {opacity: 0;}
+#section4 .sec4 .sec4_skill {opacity: 0;}
+
+#section4.show .sec4 .sec4_img img {animation: fadeInUp .84s 0.4s ease forwards;}
+#section4.show .sec4 h2 {animation: fadeInUp .84s 0.8s ease forwards; }
+#section4.show .sec4 h3 {animation: fadeInUp .84s 1.2s ease forwards;}
+#section4.show .sec4 p {animation: fadeInUp .84s 1.6s ease forwards;}
+#section4.show .sec4 .sec4_skill {animation: fadeInUp .84s 2.0s ease forwards;}
+ 
+
+.sec5 {
     text-align: center;
 }
 
-.sec6 h2 {
+.sec5 h2 {
     font-size: 80px;
     font-weight: 600;
     font-family: 'CanvasLight';
@@ -464,13 +483,13 @@ header p {
     padding-bottom: 50px;
 }
 
-.sec6 span {
+.sec5 span {
     font-size: 18px;
     color: #d43246;
     cursor: pointer;
 }
 
-.sec6 p {
+.sec5 p {
     font-size: 12px;
     color: #79726e;
     padding-top: 180px;
